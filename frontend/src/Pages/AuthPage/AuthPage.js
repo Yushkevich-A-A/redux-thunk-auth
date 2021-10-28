@@ -24,7 +24,7 @@ function AuthPage(props) {
                     </AuthForm>
                 </Header>
                 <SocialLogo /> 
-                {token && <Redirect to='/news' />}
+                {token && <Redirect to='/news'/>}
             </div>
     )
 }
